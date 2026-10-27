@@ -410,6 +410,7 @@ void MainWindow::createActions()
     connect(m_actLineNumbers, &QAction::toggled, this, &MainWindow::toggleLineNumbers);
 
     m_actToggleToolBar = ui->mainToolBar->toggleViewAction();
+    m_actToggleToolBar->setText(tr("工具栏"));   // toggleViewAction() 默认文本为空，需手动设置，否则视图菜单中"工具栏"项不显示文字
 
     m_actToggleStatusBar = new QAction(tr("状态栏"), this);
     m_actToggleStatusBar->setCheckable(true);
