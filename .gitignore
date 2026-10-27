@@ -1,0 +1,17 @@
+# Qt 构建产物
+build/
+*.o
+*.obj
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile
+Makefile.*
+*.qtc_clangd/
+.qtc_clangd/
+.qtc_package-manager.json
+
+# 系统与临时文件
+Thumbs.db
+Desktop.ini
+~$*
