@@ -15,3 +15,12 @@ Makefile.*
 Thumbs.db
 Desktop.ini
 ~$*
+
+# IDE 配置与本地作业产物（不随代码仓库上传）
+.qtcreator/
+build_report_exp2.py
+push.bat
+screenshots/
+实验报告_*.docx
+录屏脚本.txt
+截图采集清单.txt
